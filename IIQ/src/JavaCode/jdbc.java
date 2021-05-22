@@ -17,6 +17,8 @@ public class jdbc {
 		
 		 	log.setLevel(Level.DEBUG);
 		 	
+		 	
+		 	System.out.println("Hello");
 		 	if(log.isDebugEnabled())
 		 		log.debug("Provisioning Plan Starting");
 		 	
